@@ -47,11 +47,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **María de los Angeles Hinojosa Pretell**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Angelesh1995](https://github.com/Angelesh1995)
+- Twitter: [@Maria_AngelesxD](https://twitter.com/Maria_AngelesxD)
+- Linkedin: [Maria de los Angeles Hinojosa Pretell](https://www.linkedin.com/in/mar%C3%ADa-de-los-angeles-hinojosa-pretell-99935a66/)
+
 
 ## 🤝 Contributing
 
