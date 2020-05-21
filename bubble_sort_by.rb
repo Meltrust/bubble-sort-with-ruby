@@ -11,8 +11,8 @@ def bubble_sort_by(my_var)
         puts my_var
         puts ''
       end
-    x += 1
-    y += 1
+      x += 1
+      y += 1
     end
   end
 end
