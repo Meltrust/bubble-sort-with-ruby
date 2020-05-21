@@ -1,32 +1,27 @@
-def bubble_sort ()
-  puts "size of array:"
+def bubble_sort()
+  puts 'size of array:'
   size = gets.chomp.to_i
-  puts ""
-  puts "max values in array"
+  puts ''
+  puts 'max values in array'
   max_values = gets.chomp.to_i
-  puts ""
-
+  puts ''
   a = size.times.map{Random.rand(max_values)}
-
-  puts "original array: #{a}"
-  puts ""
-
+  puts 'original array: # { a }'
+  puts ''
   a.each do
     x = 0
     y = 1
-    until y == (a.size)
+    until y == a.size
       if a[x] > a[y]
         a.insert(x, a.delete_at(y))
-        puts "ordering"
-        puts ""
+        puts 'ordering'
+        puts ''
         puts a
-        puts ""
+        puts ''
       end
-      x = x + 1
-      y = y + 1
+      x +=1
+      y +=1
     end
   end
 end
-
-puts bubble_sort()
-
+puts bubble_sort
