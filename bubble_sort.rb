@@ -1,11 +1,4 @@
-def bubble_sort()
-  puts 'size of array:'
-  size = gets.chomp.to_i
-  puts 'max values in array'
-  max_values = gets.chomp.to_i
-  puts ''
-  a = size.times.map { Random.rand(max_values) }
-  puts 'original array: # { a }'
+def bubble_sort(a)
   a.each do
     x = 0
     y = 1
@@ -20,4 +13,4 @@ def bubble_sort()
     end
   end
 end
-puts bubble_sort
+bubble_sort ([150, 45, 12, 8])
