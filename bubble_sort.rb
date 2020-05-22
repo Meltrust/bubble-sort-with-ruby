@@ -1,16 +1,16 @@
-def bubble_sort(a)
-  a.each do
+def bubble_sort(unsorted)
+  unsorted.each do
     x = 0
     y = 1
-    until y == a.size
-      if a[x] > a[y]
-        a.insert(x, a.delete_at(y))
+    until y == unsorted.size
+      if unsorted[x] > unsorted[y]
+        unsorted.insert(x, unsorted.delete_at(y))
         puts 'ordering'
-        puts a
+        puts unsorted
       end
       x += 1
       y += 1
     end
   end
 end
-bubble_sort ([150, 45, 12, 8])
+bubble_sort [150, 45, 12, 8]
