@@ -5,8 +5,6 @@ def bubble_sort(unsorted)
     until y == unsorted.size
       if unsorted[x] > unsorted[y]
         unsorted.insert(x, unsorted.delete_at(y))
-        puts 'ordering'
-        puts unsorted
       end
       x += 1
       y += 1
