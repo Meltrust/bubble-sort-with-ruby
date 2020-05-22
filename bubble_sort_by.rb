@@ -17,4 +17,4 @@ def bubble_sort_by(my_var)
   end
 end
 my_var = %w[hello friends worlds hi complicated bye]
-print bubble_sort_by(my_var) { |str1, str2| str1.length - str2.length }
+bubble_sort_by(my_var) { |str1, str2| str1.length - str2.length }
