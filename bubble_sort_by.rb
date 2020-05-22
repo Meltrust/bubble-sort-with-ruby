@@ -4,9 +4,7 @@ def bubble_sort_by(my_var)
     y = 1
     until y == my_var.size
       comparison = yield(my_var[x], my_var[y])
-      if comparison.positive?
-        my_var.insert(x, my_var.delete_at(y))
-      end
+      my_var.insert(x, my_var.delete_at(y)) if comparison.positive?
       x += 1
       y += 1
     end
